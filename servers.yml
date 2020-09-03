@@ -33,4 +33,10 @@ Resources:
                     # sudo systemctl start jenkins
                     # sudo systemctl enable jenkins
                     # sudo systemctl status jenkins
+    
+    CapstoneBucket:
+        Type: AWS::S3::Bucket
+        Properties:
+            AccessControl: PublicRead
+            
 
